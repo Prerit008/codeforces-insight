@@ -7,6 +7,8 @@ A modern, interactive dashboard to visualize Codeforces user statistics using cl
 
 Built with **React + Vite**, styled using **TailwindCSS**, and enhanced with **FontAwesome** icons.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge)](https://codeforces-insight.vercel.app/)
+
 ---
 
 ## 🚀 **Features**
@@ -144,9 +146,8 @@ Feel free to open issues or submit PRs for bug fixes, features, or improvements.
 
 ---
 
-## ⭐ **License**
+## 🌐 **Live Demo**
 
-This project is licensed under the **MIT License**.
+You can try the live deployed version here:
 
-
-
+👉 **[https://codeforces-insight.vercel.app/](https://codeforces-insight.vercel.app/)**
