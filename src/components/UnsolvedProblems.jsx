@@ -74,7 +74,7 @@ const ProblemRow = ({ problem, index }) => {
   };
 
   return (
-    <div className="grid grid-cols-12 gap-4 px-4 py-3 border-b border-gray-100/50 hover:bg-blue-50/30 transition-all duration-200 group cursor-pointer">
+    <a href={`https://codeforces.com/problemset/problem/${problem.contestId}/${problem.index}`} target='_blank' className="grid grid-cols-12 gap-4 px-4 py-3 border-b border-gray-100/50 hover:bg-blue-50/30 transition-all duration-200 group cursor-pointer">
       {/* Index */}
       <div className="col-span-1 flex items-center justify-center">
         <span className="text-sm font-medium text-gray-500 bg-gray-100/50 px-2 py-1 rounded-lg group-hover:bg-gray-200 transition-colors">
@@ -124,7 +124,7 @@ const ProblemRow = ({ problem, index }) => {
           </span>
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 
